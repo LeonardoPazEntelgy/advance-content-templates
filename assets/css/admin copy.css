@@ -1,0 +1,48 @@
+/* Estilos para la interfaz de administración */
+.act-template-options-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.act-template-options-section h3 {
+    margin-top: 0;
+}
+
+.act-template-options-section label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.act-import-export-sections {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.act-export-section,
+.act-import-section {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.misc-pub-section.postbox {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccd0d4;
+    background: #fff;
+}
+
+.misc-pub-section.postbox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.misc-pub-section.postbox select {
+    width: 100%;
+    max-width: 100%;
+}
